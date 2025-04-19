@@ -232,7 +232,7 @@ const LinktreeCard = () => {
         </motion.div>
 
         {/* Brand Introduction */}
-        <motion.div className="space-y-4" variants={containerVariants}>
+        <motion.div className="space-y-2" variants={containerVariants}>
           <motion.h1 
             className={`text-2xl font-bold text-center ${darkMode ? 'text-white' : 'text-gray-800'}`}
             variants={itemVariants}
